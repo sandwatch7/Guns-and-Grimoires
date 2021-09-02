@@ -1,0 +1,21 @@
+Type (scope) : TaskId : Summary
+
+Type: Represents the type of change, often the “Type” can be inferred based on the 
+associated ticket in your project management tool, 
+which may include: FIX, FEATURE, REFACTOR, DOC, TEST etc.
+Scope: Refers to the area of the project being changed, 
+could refer to things like (menu) (inventory) (save_system) (level) (controls) etc. 
+Scopes may change throughout development but can be broadly identified. 
+Outline the scopes below that seem suitable for your project
+MENU
+LEVEL
+…
+TaskId: Id of the associated ticket representing the change.
+Summary: A short description of what has been changed.
+Format:
+
+Examples
+Feature (menu) : #1302 : Added Exit button to main menu
+Fix (menu) : #1395 : Updated button prefab with so that hover works on web builds
+Feature (sandbox) : #1129 : Added rock asset to test scene, Created Rock prefab
+
